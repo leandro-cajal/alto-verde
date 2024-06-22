@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
+import Header from './components/Header';
+import Hero from './components/Hero';
+import ChatBubble from './components/ChatBubble';
+import HeroFirstSection from './components/HeroFirstSection';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className=' font-quicksand'>
+      <div className=' font-quicksand bg-new-white '>
         <Header />
         <Hero />
+        <HeroFirstSection />
+        <ChatBubble />
       </div>
     </>
   )
